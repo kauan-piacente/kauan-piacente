@@ -1,59 +1,71 @@
-## Hello, I'm Kauan Piacente 👋
+<div align="center">
 
- Systems Analysis and Development student at **Senai Roberto Mange**  
- Junior Automation Technician at **HI Tecnologia**  
+# Kauan Piacente
+
+**Systems Analysis and Development Student** · **Junior Automation Technician**
+
+[![Email](https://img.shields.io/badge/Email-18181b?style=flat-square&logo=gmail&logoColor=white)](mailto:piacentekauan@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-18181b?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kauan-piacente-5718ba268/)
+[![Instagram](https://img.shields.io/badge/Instagram-18181b?style=flat-square&logo=instagram&logoColor=white)](https://www.instagram.com/kauan.piacente/)
+
+</div>
+
+---
+
+### About
+
+- **Education:** Systems Analysis and Development at **Senai Roberto Mange**
+- **Experience:** Junior Automation Technician at **HI Tecnologia**
+- **Focus:** Software and systems development, backend engineering, and clean architecture
 
 ---
 
 ### GitHub Stats
 
 <div align="center">
-  <img height="180em" src="https://streak-stats.demolab.com/?user=kauan-piacente&theme=vue-dark&hide_border=true"/>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/stats-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/stats-light.svg" />
+    <img alt="Kauan Piacente's GitHub Stats & Streaks" src="./assets/stats-light.svg" width="680" />
+  </picture>
 </div>
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.shion.dev/api?username=kauan-piacente&theme=vue-dark&hide_border=true&include_all_commits=true&count_private=true"/>
-</div>
-
-<div align="center"> 
-  <img height="170em" src="https://github-readme-stats-sable-eta-17.vercel.app/api/top-langs/?username=kauan-piacente&layout=compact&theme=vue-dark&hide_border=true"/>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/langs-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/langs-light.svg" />
+    <img alt="Kauan Piacente's Most Used Languages" src="./assets/langs-light.svg" width="680" />
+  </picture>
 </div>
 
 ---
 
-### Technologies
+### Tech Stack
 
 <div align="center">
 
-<img height="35" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg">
-<img height="35" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg">
-<img height="35" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg">
-<img height="35" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/lua/lua-original.svg">
-<img height="35" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg">
-<img height="35" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg">
-<img height="35" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg">
-
-</div>
-
----
-
-### Connect with me
-
-<div align="center">
-
-<a href="mailto:piacentekauan@gmail.com">
-<img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
-</a>
-
-<a href="https://www.linkedin.com/in/kauan-piacente-5718ba268/">
-<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
-
-<a href="https://www.instagram.com/kauan.piacente/">
-<img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/>
-</a>
+![Java](https://img.shields.io/badge/Java-18181b?style=for-the-badge&logo=openjdk&logoColor=white)
+![Python](https://img.shields.io/badge/Python-18181b?style=for-the-badge&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-18181b?style=for-the-badge&logo=javascript&logoColor=white)
+![Lua](https://img.shields.io/badge/Lua-18181b?style=for-the-badge&logo=lua&logoColor=white)
+![Vue.js](https://img.shields.io/badge/Vue.js-18181b?style=for-the-badge&logo=vuedotjs&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-18181b?style=for-the-badge&logo=postgresql&logoColor=white)
+![Git](https://img.shields.io/badge/Git-18181b?style=for-the-badge&logo=git&logoColor=white)
 
 </div>
 
 ---
 
+### Featured Projects
+
+| Project | Description | Stack | Link |
+| :--- | :--- | :--- | :--- |
+| **Project One** | *Add a brief one-line description of what it solves.* | `Python` `Systems` | [Repository](#) |
+| **Project Two** | *Add a brief one-line description of what it solves.* | `Java` `Backend` | [Repository](#) |
+| **Project Three** | *Add a brief one-line description of what it solves.* | `JavaScript` `Web` | [Repository](#) |
+
+---
+
+<div align="center">
+  <sub>Stats automatically updated via GitHub Actions</sub>
+</div>
