@@ -1,0 +1,38 @@
+<svg width="680" height="250" viewBox="0 0 680 250" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="GitHub Stats for kauan-piacente">
+  <style>
+    .title { font: 600 15px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; fill: #18181b; }
+    .sub { font: 400 11px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; fill: #71717a; }
+    .kpi-num { font: 700 26px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; fill: #18181b; }
+    .kpi-label { font: 600 11px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; fill: #27272a; text-transform: uppercase; letter-spacing: 0.6px; }
+    .kpi-sub { font: 400 11px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; fill: #71717a; }
+    .muted { font: 400 12px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; fill: #71717a; }
+    .metric-val { font: 600 12px ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; fill: #27272a; }
+  </style>
+
+  <rect x="0.5" y="0.5" width="679" height="249" rx="10" fill="#ffffff" stroke="#e4e4e7"/>
+
+  <!-- Header -->
+  <text x="28" y="34" class="title">GitHub Activity &amp; Streaks</text>
+  <text x="652" y="34" text-anchor="end" class="sub">@kauan-piacente · Updated 2026-11-26 UTC</text>
+  <line x1="28" y1="48" x2="652" y2="48" stroke="#e4e4e7" stroke-width="1"/>
+
+  <!-- 3 Streak / Contribution KPIs -->
+  <rect x="28" y="62" width="196" height="74" rx="8" fill="#fafafa" stroke="#e4e4e7"/>
+  <text x="126" y="84" text-anchor="middle" class="kpi-label">Total Contributions</text>
+  <text x="126" y="114" text-anchor="middle" class="kpi-num">884</text>
+  <text x="126" y="129" text-anchor="middle" class="kpi-sub">All-time</text>
+
+  <rect x="242" y="62" width="196" height="74" rx="8" fill="#fafafa" stroke="#e4e4e7"/>
+  <text x="340" y="84" text-anchor="middle" class="kpi-label">Current Streak</text>
+  <text x="340" y="114" text-anchor="middle" class="kpi-num">34d</text>
+  <text x="340" y="129" text-anchor="middle" class="kpi-sub">Oct 24 - Nov 26, 2026</text>
+
+  <rect x="456" y="62" width="196" height="74" rx="8" fill="#fafafa" stroke="#e4e4e7"/>
+  <text x="554" y="84" text-anchor="middle" class="kpi-label">Longest Streak</text>
+  <text x="554" y="114" text-anchor="middle" class="kpi-num">34d</text>
+  <text x="554" y="129" text-anchor="middle" class="kpi-sub">Oct 24 - Nov 26, 2026</text>
+
+  <!-- Secondary Metrics -->
+  <line x1="28" y1="148" x2="652" y2="148" stroke="#e4e4e7" stroke-width="1"/>
+  <text x="32" y="166" class="muted">Commits</text><text x="204" y="166" text-anchor="end" class="metric-val">752</text><text x="232" y="166" class="muted">Pull Requests</text><text x="404" y="166" text-anchor="end" class="metric-val">86</text><text x="432" y="166" class="muted">Issues</text><text x="604" y="166" text-anchor="end" class="metric-val">1</text><text x="32" y="200" class="muted">Stars</text><text x="204" y="200" text-anchor="end" class="metric-val">65</text><text x="232" y="200" class="muted">Repositories</text><text x="404" y="200" text-anchor="end" class="metric-val">45</text><text x="432" y="200" class="muted">Followers</text><text x="604" y="200" text-anchor="end" class="metric-val">18</text>
+</svg>
