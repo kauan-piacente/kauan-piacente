@@ -24,9 +24,15 @@ THEMES: dict[str, dict[str, str]] = {
         "title": "#18181b",
         "text": "#27272a",
         "muted": "#71717a",
-        "accent": "#18181b",
+        "accent": "#6d75d4",
+        "kpi_total_bg": "#f4f5ff",
+        "kpi_total_fg": "#5c64c4",
+        "kpi_curr_bg": "#f1faf5",
+        "kpi_curr_fg": "#3d8b68",
+        "kpi_long_bg": "#fff5f2",
+        "kpi_long_fg": "#c26d5a",
         "bar_bg": "#e4e4e7",
-        "bar_shades": "#18181b,#3f3f46,#71717a,#a1a1aa,#d4d4d8",
+        "bar_shades": "#8e96e8,#78c2a4,#e6b87d,#e5989b,#82b8d9",
     },
     "dark": {
         "bg": "#0d1117",
@@ -35,9 +41,15 @@ THEMES: dict[str, dict[str, str]] = {
         "title": "#f0f6fc",
         "text": "#c9d1d9",
         "muted": "#8b949e",
-        "accent": "#f0f6fc",
+        "accent": "#a5b4fc",
+        "kpi_total_bg": "#171a2b",
+        "kpi_total_fg": "#a5b4fc",
+        "kpi_curr_bg": "#13221c",
+        "kpi_curr_fg": "#86efac",
+        "kpi_long_bg": "#24191a",
+        "kpi_long_fg": "#fda4af",
         "bar_bg": "#21262d",
-        "bar_shades": "#f0f6fc,#c9d1d9,#8b949e,#6e7681,#484f58",
+        "bar_shades": "#a5b4fc,#86efac,#fcd34d,#fda4af,#7dd3fc",
     },
 }
 
@@ -353,19 +365,19 @@ def render_stats_svg(stats: dict[str, Any], theme_name: str) -> str:
   <line x1="28" y1="48" x2="652" y2="48" stroke="{t['border']}" stroke-width="1"/>
 
   <!-- 3 Streak / Contribution KPIs -->
-  <rect x="28" y="62" width="196" height="74" rx="8" fill="{t['card_bg']}" stroke="{t['border']}"/>
+  <rect x="28" y="62" width="196" height="74" rx="8" fill="{t['kpi_total_bg']}" stroke="{t['border']}"/>
   <text x="126" y="84" text-anchor="middle" class="kpi-label">Total Contributions</text>
-  <text x="126" y="114" text-anchor="middle" class="kpi-num">{html.escape(total_contrib)}</text>
+  <text x="126" y="114" text-anchor="middle" class="kpi-num" style="fill: {t['kpi_total_fg']}">{html.escape(total_contrib)}</text>
   <text x="126" y="129" text-anchor="middle" class="kpi-sub">All-time</text>
 
-  <rect x="242" y="62" width="196" height="74" rx="8" fill="{t['card_bg']}" stroke="{t['border']}"/>
+  <rect x="242" y="62" width="196" height="74" rx="8" fill="{t['kpi_curr_bg']}" stroke="{t['border']}"/>
   <text x="340" y="84" text-anchor="middle" class="kpi-label">Current Streak</text>
-  <text x="340" y="114" text-anchor="middle" class="kpi-num">{html.escape(curr_streak)}</text>
+  <text x="340" y="114" text-anchor="middle" class="kpi-num" style="fill: {t['kpi_curr_fg']}">{html.escape(curr_streak)}</text>
   <text x="340" y="129" text-anchor="middle" class="kpi-sub">{curr_range}</text>
 
-  <rect x="456" y="62" width="196" height="74" rx="8" fill="{t['card_bg']}" stroke="{t['border']}"/>
+  <rect x="456" y="62" width="196" height="74" rx="8" fill="{t['kpi_long_bg']}" stroke="{t['border']}"/>
   <text x="554" y="84" text-anchor="middle" class="kpi-label">Longest Streak</text>
-  <text x="554" y="114" text-anchor="middle" class="kpi-num">{html.escape(long_streak)}</text>
+  <text x="554" y="114" text-anchor="middle" class="kpi-num" style="fill: {t['kpi_long_fg']}">{html.escape(long_streak)}</text>
   <text x="554" y="129" text-anchor="middle" class="kpi-sub">{long_range}</text>
 
   <!-- Secondary Metrics -->
