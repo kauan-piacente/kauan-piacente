@@ -60,9 +60,7 @@
 
 | Project | Description | Stack | Link |
 | :--- | :--- | :--- | :--- |
-| **Project One** | *Add a brief one-line description of what it solves.* | `Python` `Systems` | [Repository](#) |
-| **Project Two** | *Add a brief one-line description of what it solves.* | `Java` `Backend` | [Repository](#) |
-| **Project Three** | *Add a brief one-line description of what it solves.* | `JavaScript` `Web` | [Repository](#) |
+| **blog-antenados** | *School blog for sharing knowledge, educational articles, and news from the school community.* | `Vue 3` `Supabase (PostgreSQL)` | [Repository](https://github.com/kauan-piacente/blog-antenados) |
 
 ---
 
